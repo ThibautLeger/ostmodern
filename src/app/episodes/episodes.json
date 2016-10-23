@@ -1,0 +1,38 @@
+[
+  {
+    "key": "Emmerdale",
+    "title": "Emmerdale",
+    "preview": "app/assets/images/episodes/episode1.jpg",
+    "date": "Thursday 25 Jun 8:00pm",
+    "text": "Aaron is forced to save Robert. Victoria's future hangs in the balance. Ross Punishes Jai.",
+    "length": "22m",
+    "timeRemaining": "27 days"
+  },
+  {
+    "key": "Emmerdale",
+    "title": "Emmerdale",
+    "preview": "app/assets/images/episodes/episode2.jpg",
+    "date": "Thursday 25 Jun 7:00pm",
+    "text": "It is Victoria and Adam's wedding day. Aaron makes a shocking discovery. Priya races to stop Rakesh.",
+    "length": "22m",
+    "timeRemaining": "27 days"
+  },
+  {
+    "key": "Emmerdale",
+    "title": "Emmerdale",
+    "preview": "app/assets/images/episodes/episode3.jpg",
+    "date": "Wednesday 24 Jun 7:00pm",
+    "text": "Victoria and Adam reveal the truth to Cain. Priya gives Rakesh an ultimatum. Carly confronts Bob about his interference.",
+    "length": "22m",
+    "timeRemaining": "26 days"
+  },
+  {
+    "key": "Emmerdale",
+    "title": "Emmerdale",
+    "preview": "app/assets/images/episodes/episode4.jpg",
+    "date": "Tuesday 23 Jun 7:00pm",
+    "text": "Moira is desperate to find Adam and Victoria. Priya uncovers Rakesh's lie. Carly's grand opening goes awry.",
+    "length": "22m",
+    "timeRemaining": "25 days"
+  }
+]

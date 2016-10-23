@@ -1,0 +1,115 @@
+.footer {
+    padding: 80px 0;
+    font-size: 0.9rem;
+    background-color: $dark-blue;
+    text-align: left;
+    color: white;
+    overflow: auto;
+    @media (max-width: $screen-md) {
+        padding: 15px 0;
+    }
+    .col {
+        float: left;
+        border-right: 1px solid $footer-border;
+        @media (max-width: $screen-md) {
+            border-right: none;
+            border-bottom: 1px solid $footer-border;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+            &:last-child {
+                padding-bottom: 0;
+                margin-bottom: 0;
+            }
+        }
+        p,
+        ul {
+            margin-top: 0;
+        }
+        &:last-child {
+            border: none;
+        }
+        &.col1 {
+            width: 223px;
+            color: $footer-col1;
+            @media (max-width: $screen-lg) {
+                width: 25%;
+            }
+            @media (max-width: $screen-md) {
+                width: 100%;
+            }
+            p {
+                @media (max-width: $screen-md) {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        &.col2 {
+            width: 572px;
+            @media (max-width: $screen-lg) {
+                width: 50%;
+            }
+            @media (max-width: $screen-md) {
+                width: 100%;
+            }
+            .col2_text,
+            ul {
+                float: left;
+            }
+            .col2_text {
+                width: 350px;
+                padding: 0 22px;
+                @media (max-width: $screen-md) {
+                    width: 100%;
+                    padding: 0;
+                    margin-bottom: 15px;
+                }
+            }
+            ul {
+                margin: 0;
+                padding: 0 22px;
+                @media (max-width: $screen-md) {
+                    padding: 0;
+                }
+                li {
+                    margin-bottom: 10px;
+                    font-size: 0.8rem;
+                    a {
+                        color: $footer-col-list;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        &.col3 {
+            width: 164px;
+            @media (max-width: $screen-lg) {
+                width: 25%;
+            }
+            @media (max-width: $screen-md) {
+                width: 100%;
+            }
+            ul {
+                padding: 0 22px;
+                margin: 0;
+                @media (max-width: $screen-md) {
+                    padding: 0;
+                }
+                li {
+                    padding: 0 0 0 40px;
+                    margin-bottom: 15px;
+                    font-size: 0.8rem;
+                    &.twitter {
+                        background: url(/app/assets/images/twitter_logo.svg) no-repeat;
+                    }
+                    &.facebook {
+                        background: url(/app/assets/images/facebook_logo.svg) no-repeat;
+                    }
+                    a {
+                        color: $footer-col-list;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}

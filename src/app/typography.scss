@@ -1,0 +1,46 @@
+html,
+body,
+#root {
+    font-family: 'FS Albert Web Regular', sans-serif;
+}
+
+body,
+h1,
+h2,
+h3 {
+    font-weight: 300;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'FS Albert Web Bold', sans-serif;
+    @media (max-width: $screen-sm) {
+        font-size: 1.3rem !important;
+    }
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.3em;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 0.9em;
+}
+
+li {
+    list-style: none;
+}

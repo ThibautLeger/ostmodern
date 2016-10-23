@@ -1,0 +1,41 @@
+[
+  {
+    "key": "Doc Martin",
+    "title": "Doc Martin",
+    "preview": "app/assets/images/dramas/drama1.jpg",
+    "class": "new",
+    "date": "Friday 26 Jun 9:00pm",
+    "text": "Comedy drama series about famously curmudgeonly GP. Martin is taled into taking James to playground, while Ruth is having problems with her new neighbour.",
+    "length": "46m",
+    "timeRemaining": "28 days"
+  },
+  {
+    "key": "Coronation Street",
+    "title": "Coronation Street",
+    "preview": "app/assets/images/dramas/drama2.jpg",
+    "class": "new",
+    "date": "Thursday 25 Jun 9:00pm",
+    "text": "Nick's world is turned upside down. Tracy is sick of Brian carping on. Norris and May get competitive over the pub quiz.",
+    "length": "22m",
+    "timeRemaining": "27 days"
+  },
+  {
+    "key": "Black Work",
+    "title": "Black Work",
+    "preview": "app/assets/images/dramas/drama3.jpg",
+    "class": "brand-new",
+    "date": "Thursday 25 Jun 8:30pm",
+    "text": "Thriller. When her detective husband is murdered, PC Jo Gillespie is expected to leave it to her colleagues in the force to find his killer. But can Jo trust her police family?",
+    "length": "46m",
+    "timeRemaining": "23 days"
+  },
+  {
+    "key": "Homes Fires",
+    "title": "Homes Fires",
+    "preview": "app/assets/images/dramas/drama4.jpg",
+    "date": "Sunday 14 Jun 9:00pm",
+    "text": "Drama series set in a Cheshire village during WWII. As war draws closer to home, the women have their own battles to fight. France tries to help Pat before it is too late.",
+    "length": "45m",
+    "timeRemaining": "16 days"
+  }
+]

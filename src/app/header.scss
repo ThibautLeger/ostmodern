@@ -1,0 +1,90 @@
+.header {
+  padding: 40px 0;
+  color: white;
+  background: $blue; 
+  background: -moz-linear-gradient(top, #015bcb 0%, #1f4590 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #015bcb 0%,#1f4590 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #015bcb 0%,#1f4590 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  @media (max-width: $screen-md) {
+    padding: 15px 0 55px 0;
+  }
+  .container {
+    position:relative;
+  }
+}
+
+.header-nav {
+  font-size: 1rem;
+  ul {
+    text-align: center;
+    padding: 0;
+    margin: 0 20% 0 0;
+    @media (max-width: $screen-md) {
+      margin: 0;
+    }
+    li {
+      display: inline-block;
+      line-height: 40px;
+      border-right: 1px solid #4471be;
+      padding: 0 30px;
+      @media (max-width: $screen-md) {
+        font-size: 0.8rem;
+        padding: 0 15px;
+        margin-bottom: 15px;
+      }
+      a {
+        color: white;
+      }
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
+}
+
+.header-search {
+  position: absolute;
+  right: 0;
+  top: calc(50% - 20px);
+  white: white;
+  @media (max-width: $screen-lg) {
+    right: 15px;
+  }
+  @media (max-width: $screen-md) {
+    position: static;
+    margin: 0 auto;
+  }
+  input {
+    margin: 0;
+    height: 40px;
+    border: none;
+    padding: 0 10px;
+    display: block;
+    float: left;
+    outline: none;
+    &[type="text"] {
+      width: 211px;
+      font-size: 1rem;
+      @media (max-width: $screen-lg){
+        width: 150px;
+      }
+      @media (max-width: $screen-md){
+        width: calc(100% - 40px);
+        font-size: 0.8rem;
+      }
+    }
+    &[type="submit"] {
+      background: $yellow;
+      background-image: url(/app/assets/images/magnifying-glass.svg);
+      background-position: 50%;
+      background-size: 24px 24px;
+      background-repeat: no-repeat;
+      width: 40px;
+      padding: 0;
+      cursor: pointer;
+      &:hover {
+        background-color: $search-btn-hover;
+      }
+    }
+  }
+}

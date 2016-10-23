@@ -1,0 +1,72 @@
+.title {
+    padding: 24px 0;
+    background-color: $dark-blue;
+    color: white;
+    background-size: 120px;
+    color: white;
+    overflow: auto;
+    @media (max-width: $screen-md) {
+        background-size: 80px;
+    }
+    h1 {
+        margin: 0;
+        font-size: 1.7em;
+    }
+    p {
+        color: $title-p;
+    }
+    .synopsis {
+        width: 66.66%;
+        padding-right: 30px;
+        float: left;
+        @media (max-width: $screen-md) {
+            width: 100%;
+            float: none;
+        }
+    }
+    .details {
+        float: left;
+        border-left: 1px solid #2f2e3c;
+        padding: 0 0 50px 15px;
+        @media (max-width: $screen-md) {
+            border-top: 1px solid #2f2e3c;
+            border-left: none;
+            padding: 15px 0;
+            width: 100%;
+            float: none;
+            margin-top: 30px;
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+            li {
+                margin-bottom: 20px;
+                font-size: 0.9rem;
+                color: $title-p;
+                padding-left: 40px;
+                background-position: 10px 0;
+                background-repeat: no-repeat;
+                @media (max-width: $screen-md) {
+                    float: left;
+                    margin-right: 10px;
+                    border-left: 1px solid #2f2e3c;
+                    background-position: 10px 0;
+                    padding-left: 40px;
+                    &:first-child {
+                        border-left: none;
+                        margin-left: 0;
+                        border-left: none;
+                        padding-left: 30px;
+                        background-position: 0;
+                    }
+                }
+                &.clock {
+                    background-image: url(/app/assets/images/clock-white.svg);
+                }
+                &.calendar {
+                    background-image: url(/app/assets/images/calendar-white.svg);
+                }
+            }
+        }
+    }
+}

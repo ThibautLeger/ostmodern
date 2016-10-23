@@ -1,0 +1,142 @@
+.episodes-container {
+    background-color: $light-blue;
+    padding: 20px 0;
+}
+
+.episodes {
+    .view-more {
+        padding: 10px;
+        font-size: 0.9rem;
+        background-color: black;
+        color: white;
+        float: right;
+        span {
+            color: black;
+            font-family: 'FS Albert Web Bold';
+            font-size: 0.8rem;
+            line-height: 21px;
+            width: 28px;
+            height: 21px;
+            background-image: url(/app/assets/images/square.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            display: inline-block;
+            margin-left: 5px;
+        }
+    }
+    .broadcast {
+        text-align: center;
+        color: $grey-text;
+        margin: 100px 0 30px 0;
+    }
+}
+
+.episode {
+    width: 100%;
+    border-top: 1px solid $border-color;
+    padding: 15px 0;
+    overflow: auto;
+    @media (max-width: $screen-sm) {
+        border-top: none;
+    }
+}
+
+.episode-preview {
+    float: left;
+    margin: 0 25px 0 0;
+    position: relative;
+    @media (max-width: $screen-sm) {
+        width: 100%;
+        float: none;
+        margin: 0 0 15px 0;
+    }
+    a.play-btn {
+        width: 40px;
+        height: 40px;
+        background-color: $blue;
+        background-image: url(/app/assets/images/play-btn.svg);
+        background-position: 55% 50%;
+        background-size: 20px 20px;
+        background-repeat: no-repeat;
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 38px;
+        height: 38px;
+        background-color: $blue;
+        cursor: pointer;
+        &:hover {
+            background-color: $play-btn-hover;
+        }
+    }
+    img {
+        display: block;
+        width: 100%;
+    }
+}
+
+.episode-text {
+    float: left;
+    width: calc(100% - 250px);
+    @media (max-width: $screen-sm) {
+        width: 100%;
+    }
+    .synopsis {
+        float: left;
+        width: 66.66%;
+        padding-right: 25px;
+        @media (max-width: $screen-md) {
+            float: none;
+            width: 100%;
+        }
+        p {
+            margin: 5px 0;
+        }
+        p.date {
+            color: $details;
+        }
+    }
+    .details {
+        color: $details;
+        border-left: 1px solid $border-color;
+        font-family: 'FS Albert Web Bold';
+        float: left;
+        padding: 0 0 30px 15px;
+        width: 33.33%;
+        @media (max-width: $screen-md) {
+            float: none;
+            width: 100%;
+            border-left: none;
+            border-top: 1px solid $border-color;
+            margin-top: 15px;
+            padding: 15px 0 0 0;
+        }
+        p {
+            margin-top: 0;
+            padding-left: 30px;
+            background-repeat: no-repeat;
+            &.clock {
+                background-image: url(/app/assets/images/clock.svg);
+            }
+            &.calendar {
+                background-image: url(/app/assets/images/calendar.svg);
+            }
+            @media (max-width: $screen-md) {
+                float: left;
+                margin-right: 10px;
+                border-left: 1px solid $border-color;
+                background-position: 10px 0;
+                padding-left: 40px;
+                &:first-child {
+                    border-left: none;
+                    margin-left: 0;
+                    border-left: none;
+                    padding-left: 30px;
+                    background-position: 0;
+                }
+            }
+        }
+    }
+}

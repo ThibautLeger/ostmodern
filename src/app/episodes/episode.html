@@ -1,0 +1,19 @@
+<div class="episode">
+    <div class="episode-preview">
+        <a href="" class="play-btn"></a>
+        <img class="episode-preview__img" ng-src="{{ $ctrl.episode.preview }}" />
+    </div>
+    <div class="episode-text">
+        <div class="synopsis">
+            <h3 class="episode-h3">
+                {{ $ctrl.episode.title }}
+            </h3>
+            <p class="date">{{ $ctrl.episode.date }}</p>
+            <p>{{ $ctrl.episode.text }}</p>
+        </div>
+        <div class="details">
+            <p class="clock">{{ $ctrl.episode.length }}</p>
+            <p class="calendar">{{ $ctrl.episode.timeRemaining }}</p>
+        </div>
+    </div>
+</div>

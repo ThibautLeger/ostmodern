@@ -1,0 +1,19 @@
+<div class="recommended">
+    <div class="recommended-preview">
+        <div class="{{ $ctrl.recommended.class }}"></div>
+        <a href="" class="play-btn"></a>
+        <img class="recommended-preview__img" ng-src="{{ $ctrl.recommended.preview }}" />
+    </div>
+    <div class="recommended-col-right">
+        <div class="basic-infos">
+            <h3 class="recommended-h3">
+                {{ $ctrl.recommended.title }}
+            </h3>
+            <p>{{ $ctrl.recommended.text }}</p>
+        </div>
+        <div class="details">
+            <p class="date"><span data-icon="&#xe001;" class="icomoon down-arrow"></span>{{ $ctrl.recommended.date }}</p>
+            <p class="time"><span class="clock">{{ $ctrl.recommended.length }}</span><span class="calendar">{{ $ctrl.recommended.timeRemaining }}</span></p>
+        </div>
+    </div>
+</div>

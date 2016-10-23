@@ -1,0 +1,13 @@
+
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#141A21;}
+	.st1{fill:#191F28;}
+	.st2{fill:#141B23;}
+</style>
+<rect class="st0" width="120" height="120"/>
+<polygon class="st1" points="120,0 120,120 0,120 "/>
+<polygon class="st2" points="60,0 60,60 0,60 "/>
+<polygon class="st2" points="60,120 60,60 120,60 "/>
+</svg>

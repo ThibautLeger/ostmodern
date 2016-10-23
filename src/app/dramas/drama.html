@@ -1,0 +1,19 @@
+<div class="drama">
+    <div class="drama-preview">
+        <div class="{{ $ctrl.drama.class }}"></div>
+        <a href="" class="play-btn"></a>
+        <img class="drama-preview__img" ng-src="{{ $ctrl.drama.preview }}" />
+    </div>
+    <div class="drama-col-right">
+        <div class="basic-infos">
+            <h3 class="drama-h3">
+                {{ $ctrl.drama.title }}
+            </h3>
+            <p>{{ $ctrl.drama.text }}</p>
+        </div>
+        <div class="details">
+            <p class="date"><span data-icon="&#xe001;" class="icomoon down-arrow"></span>{{ $ctrl.drama.date }}</p>
+            <p class="time"><span class="clock">{{ $ctrl.drama.length }}</span><span class="calendar">{{ $ctrl.drama.timeRemaining }}</span></p>
+        </div>
+    </div>
+</div>
