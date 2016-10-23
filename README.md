@@ -1,23 +1,27 @@
 # ostmodern landing page test
 
-### Requirements
-You must have the followings installed.
+## Requirements
+You must have the followings installed
 
-1.  [Nodejs](https://nodejs.org/en/)
-2.  [npm](https://www.npmjs.com/) 
-3.  [bower](https://bower.io/)
-3.  [Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
+* [Nodejs](https://nodejs.org/en/)
+* [npm](https://www.npmjs.com/) npm -v 3.10.8
+* [Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md) gulp -v CLI version 1.2.2, Local version 4.0.0-alpha.2
+* [Fountainjs](http://fountainjs.io/)
+* [Yeoman](http://yeoman.io/)
+
+## steps
+
+### clone project
+    git clone https://github.com/ThibautLeger/ostmodern.git
 
 ### Switch to dev branch
     git checkout dev
 
-### npm install
+### Npm install
     npm install
 
-### bower install
-    bower install
-
-### run the project
+### Run the project
     gulp serve
 
-Now, you can access the dev site on [http://localhost:3000/](http://localhost:3000/)
+### Access the dev site
+    [http://localhost:3000/](http://localhost:3000/)
