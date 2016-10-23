@@ -1,6 +1,4 @@
-# ostmodern
-
-## Setting up local environment
+# ostmodern landing page test
 
 ### Requirements
 You must have the followings installed.
@@ -12,6 +10,12 @@ You must have the followings installed.
 
 ### Switch to dev branch
     git checkout dev
+
+### npm install
+    npm install
+
+### bower install
+    bower install
 
 ### run the project
     gulp serve
