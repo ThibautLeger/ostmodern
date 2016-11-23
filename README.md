@@ -24,4 +24,4 @@ You must have the followings installed
     gulp serve
 
 ### Access the dev site
-    [http://localhost:3000/](http://localhost:3000/)
+    http://localhost:3000/
